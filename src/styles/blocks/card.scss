@@ -8,7 +8,9 @@
   border-radius: 5px;
 
   &__image {
-    margin: 33px 20px;
+    width: 160px;
+    height: 134px;
+    margin: 32px 19px;
     margin-bottom: 40px;
   }
 
@@ -31,28 +33,20 @@
   &__reviews {
     height: 16px;
     display: inline-flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
-    font-size: 10px;
-    line-height: 14px;
-    color: $text-color;
     margin: 16px;
-    margin-bottom: 8px;
-    &__count {
-      display: block;
-    }
+    margin-bottom: 24px;
   }
 
   &__button {
     background-color: $button-color;
     color: #fff;
-    border: 5px solid transparent;
     border: 1px solid $button-color;
     border-radius: 5px;
     padding: 10px 15px;
     font-size: 14px;
     margin: 16px;
-    margin-top: 0;
     cursor: pointer;
 
     &:hover {
@@ -60,4 +54,12 @@
       color: $button-color;
     }
   }
+}
+
+.reviews-count {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  line-height: 14px;
+  color: $text-color;
 }

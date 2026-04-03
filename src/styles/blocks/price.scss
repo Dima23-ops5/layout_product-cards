@@ -1,5 +1,5 @@
 .price {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 16px;
@@ -7,14 +7,13 @@
   &__label {
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0%;
     color: $secondary-color;
   }
 
   &__value {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 18px;
-    letter-spacing: 0%;
+    color: $text-color;
   }
 }

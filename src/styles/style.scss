@@ -1,5 +1,11 @@
-@import './utils/variables';
-@import './blocks/index';
-@import './blocks/card';
-@import './blocks/price';
-@import './blocks/stars';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@import 'utils/variables';
+@import 'blocks/base';
+@import 'blocks/card';
+@import 'blocks/price';
+@import 'blocks/stars';
